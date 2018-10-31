@@ -1,0 +1,26 @@
+#returngroup {
+    font-family: "Times New Roman", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#returngroup td, #returngroup th {
+    border: 1px solid #ddd;
+    padding: 2px;
+}
+
+#returngroup td{
+    background-color: #b2b2b2;
+}
+
+#returngroup tr:nth-child(even){background-color: #f2f2f2;}
+
+#returngroup tr:hover {background-color: #ddd;}
+
+#returngroup th {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: left;
+    background-color: #0000ff;
+    color: white;
+}
