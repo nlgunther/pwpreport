@@ -3,9 +3,9 @@ from django.contrib import admin
 # Register your models here.
 
 from .models import Quarter
-from .models import Report
-from .models import AssetPerformance
+from .models import QuarterReport
+from .models import SectorPerformance
 
 admin.site.register(Quarter)
-admin.site.register(Report)
-admin.site.register(AssetPerformance)
+admin.site.register(QuarterReport)
+admin.site.register(SectorPerformance)
